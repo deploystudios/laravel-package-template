@@ -1,5 +1,5 @@
 {
-    "name": "deploystudios/__PACKAGE_NAME__",
+    "name": "__ORGANIZATION_NAME__/__PACKAGE_NAME__",
     "description": "",
     "type": "library",
     "license": "MIT",
@@ -13,13 +13,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "DeployStudios\\__PACKAGE_CLASS_NAME__\\": "src/"
+            "__PACKAGE_NAMESPACE__\\__PACKAGE_CLASS_NAME__\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "DeployStudios\\__PACKAGE_CLASS_NAME__\\Laravel\\ServiceProvider"
+                "__PACKAGE_NAMESPACE__\\__PACKAGE_CLASS_NAME__\\Laravel\\ServiceProvider"
             ]
         }
     }
