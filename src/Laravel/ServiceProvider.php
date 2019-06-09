@@ -1,6 +1,6 @@
 <?php
 
-namespace DeployStudios\LaravelPackageTemplate\Laravel;
+namespace DeployStudios\__PACKAGE_CLASS_NAME__\Laravel;
 
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
@@ -26,7 +26,7 @@ class ServiceProvider extends IlluminateServiceProvider
         if ($this->app->runningInConsole()) {
 
             $this->publishes([
-                __DIR__ . '/../../config/config.php' => config_path('deploystudios/laravel-package-template.php'),
+                __DIR__ . '/../../config/config.php' => config_path('deploystudios/__PACKAGE_NAME__.php'),
             ], 'config');
         }
     }

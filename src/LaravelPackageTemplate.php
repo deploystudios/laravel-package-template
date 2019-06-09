@@ -1,8 +1,8 @@
 <?php
 
-namespace DeployStudios\LaravelPackageTemplate;
+namespace DeployStudios\__PACKAGE_CLASS_NAME__;
 
-class LaravelPackageTemplate {
+class __PACKAGE_CLASS_NAME__ {
 
     public function __construct() {
         exit('boom! you did it!!!!');

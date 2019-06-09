@@ -1,25 +1,25 @@
 {
-    "name": "deploystudios/laravel-package-template",
+    "name": "deploystudios/__PACKAGE_NAME__",
     "description": "",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Mike Hughes",
-            "email": "mike@deploystudios.com"
+            "name": "",
+            "email": ""
         }
     ],
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
-            "DeployStudios\\LaravelPackageTemplate\\": "src/"
+            "DeployStudios\\__PACKAGE_CLASS_NAME__\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "DeployStudios\\LaravelPackageTemplate\\Laravel\\ServiceProvider"
+                "DeployStudios\\__PACKAGE_CLASS_NAME__\\Laravel\\ServiceProvider"
             ]
         }
     }
